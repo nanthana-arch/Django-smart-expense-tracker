@@ -1,0 +1,75 @@
+body {
+    background: radial-gradient(circle at 15% 20%, #e0f2fe 0, transparent 25%), radial-gradient(circle at 80% 10%, #ffe4e6 0, transparent 22%), #f6f8fb;
+    min-height: 100vh;
+}
+
+.card {
+    border: none;
+}
+
+.navbar-brand {
+    letter-spacing: 0.5px;
+}
+
+table td, table th {
+    vertical-align: middle;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #2563eb 0%, #0ea5e9 100%);
+    color: #fff;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.stat-card p {
+    color: rgba(255,255,255,0.8);
+}
+
+#searchInput {
+    max-width: 320px;
+}
+
+.badge {
+    font-weight: 600;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    --bs-table-bg: #f8fafc;
+}
+
+.glass-panel {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+}
+
+.filter-chip {
+    background: #f8fafc;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+}
+
+.sortable {
+    cursor: pointer;
+}
+
+.sortable:hover {
+    color: #2563eb;
+}
+
+.method-chip {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-weight: 600;
+    font-size: 0.82rem;
+    color: #fff;
+}
+.method-cash { background: #16a34a; }
+.method-card { background: #2563eb; }
+.method-upi { background: #f59e0b; color: #1f2937; }
+.method-bank { background: #9333ea; }
+.method-other { background: #ea580c; }
